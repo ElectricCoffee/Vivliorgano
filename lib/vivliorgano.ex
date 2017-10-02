@@ -1,18 +1,9 @@
 defmodule Vivliorgano do
   @moduledoc """
-  Documentation for Vivliorgano.
+  The entry point of the program
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Vivliorgano.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def main(args \\ []) do
+    IO.puts "this works!"
   end
 end
